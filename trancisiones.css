@@ -1,0 +1,71 @@
+body{
+    background-color:rgb(255, 117, 24);
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+
+}
+
+.contenedor{
+    border: 1px solid yellowgreen;
+
+}
+
+.transiciones{
+width: 150px;
+height: 70px;
+border: 1px solid green;
+margin-bottom: 15px;
+margin-left: 15px;
+line-height: 70px;
+}
+
+.sinefecto{
+    margin-top: 15px;
+}
+
+.ease:hover{
+    width: 300px;
+    height: 140px;
+    background-color: chocolate;
+    color: black;
+    transition: all 5s ease;
+    line-height: 140px;
+
+}
+ .linear:hover{
+    width: 300px;
+    height: 140px;
+    background-color: brown;
+    color: black;
+    transform: translateX(950px);
+    transition: all 5s linear;
+    line-height: 140px;
+ }
+
+ .ease-in:hover{
+     width: 300px;
+    height: 140px;
+    background-color: red;
+    color: black;
+    transition: all 5s ease-in;
+    line-height: 140px;
+ }
+ .ease-out:hover{
+     width: 300px;
+    height: 140px;
+    background-color: darkgreen;
+    color: black;
+    transition: all 5s ease-out;
+    line-height: 140px;
+ }
+
+ .ease-in-out:hover{
+     width: 300px;
+    height: 140px;
+    background-color: skyblue;
+    color: black;
+    transition: all 5s ease-in-out;
+    line-height: 140px;
+ }
